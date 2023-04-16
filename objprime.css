@@ -1,0 +1,280 @@
+/*body{
+    background-image: url("golden_swirl2.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;                      background-attachment: fixed;
+     background-color: whitesmoke;
+}*/
+#objprimediv{
+    background-color: ;
+    height: 40px;
+    align: center;
+    }
+#homeicon{
+    float: left;
+    display: inline;
+    height: 20px;
+    width: 20px;
+    border: grove;
+    font-size: 20px;
+    color: maroon;
+    margin-top: 5px;
+}
+#logo{
+    height: 35px;
+    width: 138px;
+}
+#account{
+    float: right;
+    height:20px;
+    width: 20px;
+/*    border: 5px solid maroon;*/
+    border-radius: 20px;
+    padding: 4px;
+    box-shadow: 1px 1px 2px black;
+    position: relative;
+    display: inline-block;
+}
+#accountname{
+    display: inline;
+    font-size: 11px;
+    line-height: 30px;
+}
+#div2{
+    background-color: maroon;
+    height: 30px;
+    padding: 10px;
+    width: 100%;
+    margin-left: -10px;
+}
+#dummy{
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+}
+#dropdowndummy{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+#searchbox{
+    width: 50px;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    margin-right: -2px;
+    border: none;
+}
+#searchdiv{
+    float: left;
+/*  border: 5px inset gray;*/
+    width: 30%;
+    margin-left: 0px;
+}
+#btnsearch{
+    border-radius: 10px 10px 10px 10px;
+    height: 25px;
+    border: 2px groove;
+    width: 80px;
+    display: inline-block;
+    color: white;
+    background-color: gray;
+}
+.options{
+    display: inline;
+    color: white;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: courier;
+}
+#optionsdiv{
+    float: right;'
+}
+#optionbars{
+    font-size: 25px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 80%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 8px 10px;
+  z-index: 1;
+  font-family: verdana;
+  background-color: black;
+  color: white;
+  opacity: 70%;
+  overflow: auto;
+  font-size: 13px;
+  border-radius: 0px 0px 10px 10px;
+}
+.dropdown-content2{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 8px 10px;
+  z-index: 1;
+  font-family: verdana;
+  background-color: black;
+  color: white;
+  opacity: 70%;
+  overflow: auto;
+  font-size: 13px;
+  border-radius: 10px 0px 0px 10px;
+  right: -10px;
+}
+.dropdown-content3{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 8px 10px;
+  z-index: 1;
+  font-family: Arial black;
+  background-color: white;
+  color: gray;
+  overflow: auto;
+  font-size: 13px;
+  border-radius: 10px 0px 0px 10px;
+  right: -10px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropdown-content2 {
+  display: block;
+}
+#account:hover .dropdown-content3 {
+  display: block;
+}
+.webitem{
+    height: 200px;
+    width: 70%;
+    border-radius: 10px;
+    padding-top: 50px;
+    box-shadow: 2px 1px 5px gray;
+    font-family: verdana;
+    display: inline-block;
+    margin: 10px;
+    font-size: 10px;
+    background-color: white;
+}
+#allwebitem{
+    margin-bottom:20px;
+}
+.itemimg{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+#footer{
+    position: absolute;
+    margin-left: -10px;
+    margin-right: 0px;
+    margin-bottom: -10px;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+    background-color: lightgray;
+    display: block;
+}
+#support{
+    font-size:10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-style: candara;
+}
+#headset{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+a:click{
+    color: orange;
+}
+#bottomcont{
+    font-size: 10px;
+}
+/*portrait elite launch*/
+#launchimg{
+    margin-top: 30px;
+    width: 300px;
+    height: 120px;
+    border-radius: 20px 20px 0px 0px;
+}
+#pedesc{
+    width: 192px;
+    height: 128px;
+}
+.paragraphtxt{
+    font-family: verdana;
+    font-size: 10px;
+}
+#portraitelitelink{
+    display: block;
+    width: 50%;
+    height: 50px;
+    padding: 3px;
+    background-color: dodgerblue;
+    color: white;
+    line-height: 50px;
+    font-size: 13px;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+/*ojaprime*/
+#welcomemsg{
+    border: 2px ridge green;
+    color: green;
+    background-color: whitesmoke;
+    width: 80%;
+    height: 40px;
+    overflow: auto;
+    border-radius: 30px;
+    margin: 20px 0px 20px 0px;
+    padding: 15px;
+    font-size: 10px;
+    font-family: eras;
+}
+#ojap{
+    font-size: 20px;
+    font-family: Arial-black;
+    color: white;
+    background-image: url("bggrass.png");
+    margin-top: -3px;
+}
+.webitem2{
+    height: 200px;
+    width: 45%;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 2px 1px 5px gray;
+    font-family: verdana;
+    display: inline-block;
+    margin: 3px;
+    font-size: 10px;
+    background-color: white;
+    float:;
+}
+.category{
+    width: 35%;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: maroon;
+    color: white;
+    font-size: 13px;
+    font-family: verdana;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    display: inline-block;
+}
+.
